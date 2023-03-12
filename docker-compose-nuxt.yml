@@ -16,6 +16,6 @@ services:
       - traefik-proxy-network
     labels:
       - "traefik.enable=true"
-      - "traefik.http.routers.nuxt.rule=PathPrefix(`/`)"
+      - "traefik.http.routers.nuxt.rule=PathPrefix(`/jike`)"
       # - "traefik.http.routers.nuxt.tls=true" # 开启 https
       # - "traefik.http.routers.nuxt.tls.certresolver=le"
